@@ -240,9 +240,6 @@ p {
   margin-right: 3px;
 }
 .product-grid .price.discount{ color: #e74c3c;; }
-@media only screen and (max-width:990px){
-  .product-grid{ margin-bottom: 30px; }
-}
 
 
 
