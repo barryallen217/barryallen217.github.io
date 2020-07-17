@@ -1,3 +1,6 @@
+productList.toggleClass('table-layout');
+
+
 window.onload=function() {
     let toggle=true;
     let input=document.querySelector(".input");
