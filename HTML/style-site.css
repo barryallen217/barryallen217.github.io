@@ -94,13 +94,23 @@ p {
   margin-right: 10px;
 }
 
+.row {
+  background: rgb(210, 6, 0);
+  display: flex;
+  justify-content: space-around;
+}
+.row:last-child {
+  justify-content: space-around;
+  }
+
+
 .product-grid .product-content {
   padding: 12px 0;
 }
 .product-grid .title {
   font-size: 15px;
   font-weight: 400;
-  margin: 0 0 5px;  
+  margin: 0 0 5px;
 }
 .product-grid .title a {
   color: #d5b45b;
