@@ -1,5 +1,20 @@
 productList.toggleClass('table-layout');
 
+function cityChanged(){
+	var citiesList = document.getElementById("cities");
+  var selectedCity = citiesList.options[cities.selectedIndex].value;
+  
+  var shopsLists=document.getElementsByName("Shops");
+  
+  for(var i=0; i < shopsLists.length; i++){
+  	shopsLists[i].classList.remove("active");
+    shopsLists[i].classList.add("hidden");
+  }
+  
+  document.getElementById(selectedCity+"Shops").classList.remove("hidden");
+  document.getElementById(selectedCity+"Shops").classList.add("active");
+}
+
 
 window.onload=function() {
     let toggle=true;
