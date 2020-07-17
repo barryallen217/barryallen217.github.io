@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: #fff;
+  background: red;
 }
 header {
   background: white;
@@ -84,6 +84,17 @@ nav ul {
 a {
   font-family: cursive;
 }
+
+p {
+  text-align: center;
+}
+
+.image-fr {
+  float: right; 
+  margin-right: 10px;
+}
+
+
 
 #menuVertical {
   width: 100%;
