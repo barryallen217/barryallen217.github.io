@@ -38,7 +38,7 @@ body {
     height: 550px;
     padding-left: 30px;
     position: relative;
-    background-color: #fff;
+    background-color: rgb(63,63,63);
     border-radius: 10px;
 }
 .features-inner {
@@ -63,6 +63,7 @@ body {
 .ftitle span {
     font-family: "Kaushan Script", cursive;
     font-weight: 700;
+    color: #d5b45b;
 }
 .fitem {
     z-index: 0;
@@ -78,7 +79,7 @@ body {
 .fitem_active {
     display: block;
     z-index: 1;
-    color: #0b1023;
+    color: red;
     left: 0px;
     transition-delay: .5s;
     transition-duration: 1.2s;
