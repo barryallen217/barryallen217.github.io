@@ -1,21 +1,3 @@
-productList.toggleClass('table-layout');
-
-function cityChanged(){
-	var citiesList = document.getElementById("cities");
-  var selectedCity = citiesList.options[cities.selectedIndex].value;
-  
-  var shopsLists=document.getElementsByName("Shops");
-  
-  for(var i=0; i < shopsLists.length; i++){
-  	shopsLists[i].classList.remove("active");
-    shopsLists[i].classList.add("hidden");
-  }
-  
-  document.getElementById(selectedCity+"Shops").classList.remove("hidden");
-  document.getElementById(selectedCity+"Shops").classList.add("active");
-}
-
-
 window.onload=function() {
     let toggle=true;
     let input=document.querySelector(".input");
@@ -27,7 +9,7 @@ window.onload=function() {
         document.getElementById("pace"),
         document.getElementById("ace")
     ];
-    let navi=[  
+    let navi=[
         document.getElementById("h"),
         document.getElementById("t"),
         document.getElementById("b")
@@ -118,12 +100,3 @@ window.onload=function() {
         document.getElementById(id).classList.remove("cur_hover");
     }
 }
-
-
-      window.console = window.console || function (t) {};
-    
-    
-      if (document.location.search.match(/type=embed/gi)) {
-        window.parent.postMessage("resize", "*");
-      }
-    

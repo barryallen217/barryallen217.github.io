@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="stile.css" />
     <link rel="stylesheet" href="media.css" />
+    <link rel="stylesheet" href="media.css" />
     <script src="script.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="1.ico" />
     <link rel="stylesheet" href="style-site.css" />
@@ -32,12 +33,12 @@
     <header>
       <a href="index.html" class="logo">Сеньор Помидор</a>
       <nav>
-        <ul class="topmenu">
+        <ul class="topmenu1">
           <li><a href="index.html">Главная</a></li>
 
           <li><a href="about.html">О нас</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-
+        </ul>
+        <ul class="topmenu">
           <li>
             <a href="snacks.html">Закуски</a>
           </li>
@@ -51,8 +52,7 @@
           </li>
 
           <li>
-            <a href="blanks_for_the_winter.html">Заготовки на зиму</a
-            >
+            <a href="blanks_for_the_winter.html">Заготовки на зиму</a>
           </li>
         </ul>
       </nav>
@@ -61,17 +61,26 @@
     <section class="sectione features">
       <div class="feature-wrap">
         <div class="features-inner">
-          <h2 class="ftitle"><span>Сеньор Помидор</span></h2>
+          <h2 class="ftitle"><span>RUBigBank</span> is here</h2>
           <div class="fitem_wrap fitem_active" id="place">
-            <p class="fitem">ТЕКСТ <a href="#">переход</a> ТЕКСТ</p>
+            <h2 class="subftitle">for your place!</h2>
+            <p class="fitem">
+              With our <a href="#">foundation</a> credit you can build your nest
+              as you always wished.
+            </p>
           </div>
           <div class="fitem_wrap unselectable" id="pace">
-            <p class="fitem">ТЕКСТ <a href="#">переход</a>ТЕКСТ</p>
+            <h2 class="subftitle">for your pace!</h2>
+            <p class="fitem">
+              Our <a href="#">cards</a> will not let you get stuck without
+              penny.
+            </p>
           </div>
           <div class="fitem_wrap unselectable" id="ace">
+            <h2 class="subftitle">for your ace!</h2>
             <p class="fitem">
-              ТЕКСТ
-              <a href="#">переход</a>
+              We can help you to make your creative idea a truth with our
+              <a href="#">initial capital.</a>
             </p>
           </div>
         </div>
@@ -80,10 +89,32 @@
           <div class="navi" id="t"></div>
           <div class="navi" id="b"></div>
         </div>
-        <img src="#" alt="" class="unselectable house img img_active" />
-        <img src="#" alt="" class="unselectable travel img" />
-        <img src="#" alt="" class="unselectable business img" />
+        <img src="house.jpg" alt="" class="unselectable house img img_active" />
+        <img src="travel.png" alt="" class="unselectable travel img" />
+        <img src="business.png" alt="" class="unselectable business img" />
       </div>
     </section>
+
+    
+      <div class="row wrap">
+          <div class="contacts" id="contacts">
+            <div class="contacts__title">Контакты</div>
+            <p>
+              Телефон:
+              <a class="tel" itemprop="telephone" href="tel:8 (495) 646-87-67">
+                <span>8 (495) 646-87-67</span>
+              </a>
+            </p>
+            <p>
+              <a class="email" itemprop="email" href="mailto:info@vsemayki.ru"
+                >info@vsemayki.ru</a
+              >
+            </p>
+            <p></p>
+          </div>
+      </div>
+    
+
+
   </body>
 </html>
