@@ -56,10 +56,10 @@ figure {
 .is-item {
   width: 60%;
   background: rgb(63,63,63);
+  padding: 40px 0 40px;
 }
 .is-item.has--img {
   width: 40%;
-  background: rgb(63,63,63);
 }
 
 .the-img {
