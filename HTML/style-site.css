@@ -175,6 +175,7 @@ footer.bottom-footer {
   text-align: center;
   background: rgb(63, 63, 63);
   color: #f3b50b;
+  display: flex;flex-flow: wrap;
 }
 .tel {
   color: #f3b50b;
