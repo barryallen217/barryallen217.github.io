@@ -176,6 +176,7 @@ footer.bottom-footer {
   background: rgb(63, 63, 63);
   color: #f3b50b;
   display: flex;flex-flow: wrap;
+  align-self: flex-end;
 }
 .tel {
   color: #f3b50b;
