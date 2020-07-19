@@ -23,7 +23,7 @@ h1 {
 small {
   font-style: italic;
   font-weight: 700;
-  margin-bottom: 6em;
+  margin-bottom: 0.5em;
   display: inline-block;
   color: #999;
   position: relative;
@@ -60,6 +60,7 @@ figure {
 }
 .is-item.has--img {
   width: 59%;
+  padding-bottom: 6em;
 }
 
 .the-img {
