@@ -170,10 +170,10 @@ footer.bottom-footer {
   padding: 40px 0 50px;
 }
 .wrap{
-  padding: 60px 0 50px;
+  padding: 60px 100px 50px;
   margin-top: 100px;
   text-align: center;
-  background: black;
+  background: rgb(63, 63, 63);
   color: #f3b50b;
 }
 .tel {
