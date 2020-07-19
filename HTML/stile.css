@@ -35,6 +35,13 @@ body {
     transition-duration: .5s;
 }
 .features {
+    height: 850px;
+    padding-left: 30px;
+    position: relative;
+    background-color: rgb(63,63,63);
+    border-radius: 0px;
+}
+.features1 {
     height: 450px;
     padding-left: 30px;
     position: relative;
@@ -55,10 +62,11 @@ body {
     left: -200px;
     transition-duration: 1.2s;
 }
+
 .ftitle, .subftitle {
-    padding-left: 50px;
-    font-size: 35px;
-    font-weight: normal;
+    letter-spacing: 10px;
+  color: #f3b50b;
+  margin: 0;
 }
 .ftitle span {
     font-family: "Kaushan Script", cursive;

@@ -113,3 +113,5 @@ if(mobile){
    cssLink.setAttribute("href", "css/mobile.css");
    document.head.appendChild(cssLink);
 }
+
+

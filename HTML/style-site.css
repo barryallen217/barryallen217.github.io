@@ -3,8 +3,8 @@ body {
   background: rgb(210, 6, 0);
   background: url(snacks/5.jpg) no-repeat;
   background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header {
   background: #ffcc0000;
@@ -17,8 +17,8 @@ header a {
   transition: 0.3s ease-in-out;
 }
 .logo {
-  color: red;
-  text-shadow: 1px 1px 2px black, 0 0 1.25em red;
+  color: gold;
+  text-shadow: 1px 1px 2px black, 0 0 10.10px black;
   font-family: cursive;
   font-size: 2.5em;
   padding: 20px 0;
@@ -47,8 +47,8 @@ nav ul {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
-  color: rgb(21, 255, 0);
-  text-shadow: 1px 1px 2px black, 0 0 1.25em red;
+  color: gold;
+  text-shadow: 1px 1px 2px black, 0 0 10.10px black;
   padding: 15px 30px;
 }
 .topmenu li a:hover {
@@ -71,8 +71,8 @@ nav ul {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
-  color: rgb(21, 255, 0);
-  text-shadow: 1px 1px 2px black, 0 0 1.25em red;
+  color: rgb(255, 217, 0);
+  text-shadow: 1px 1px 2px black, 0 0 10.10px black;
   padding: 15px 30px;
 }
 .topmenu1 li a:hover {
