@@ -7,7 +7,7 @@ body {
   max-width: 800px;
 }
 .slider__images {
-  opacity: 0;
+  opacity: 1;
   visibility: hidden;
   position: relative;
   top: 0px;
@@ -15,11 +15,7 @@ body {
   list-style-type: none;
   transition: opacity .4s ease-in, visibility .4s ease-in;
   
-  &.loaded {
-    opacity: 1;
-    visibility: visible;
-  }
-  
+ 
   &-item {
     position: absolute;
     top: 0px;

@@ -1,7 +1,4 @@
-body {
-  margin: 0;
-  position: relative;
-}
+
 
 .slider {
   max-width: 800px;
@@ -9,7 +6,7 @@ body {
 
 .slider__images {
   opacity: 1;
-  visibility: hidden;
+  visibility: visible;
   position: relative;
   top: 0px;
   left: 0px;
@@ -43,11 +40,12 @@ body {
 
 .slider__control {
   display: inline-block;
-  color: #829995;
+  color: white;
   cursor: pointer;
 }
 
 .slider__control--prev {
+  margin-bottom: 20px;
   margin-right: 10px;
 }
 
@@ -72,13 +70,7 @@ body {
   color: #333;
 }
 
-body {
-  background: #EF629F;
-  background: linear-gradient(to right, #EF629F, #EECDA3);
-  font-family: Avenir, 'Proxima Nova', sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-}
+
 
 ul,
 ol,
