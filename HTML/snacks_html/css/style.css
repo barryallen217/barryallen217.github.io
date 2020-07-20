@@ -63,11 +63,11 @@
   display: inline-block;
   margin: 0 5px;
   cursor: pointer;
-  color: #829995;
+  color: white;
   padding: 0 10px;
 }
 .slider__pagers li.active {
-  color: #333;
+  color: #829995;
 }
 
 
