@@ -1,6 +1,6 @@
 @media screen and (max-width: 1280px) {
   div.contentblock {
-    width: 1200px;
+    width: 900px;
   }
 }
 @media screen and (max-width: 1140px) {
@@ -26,7 +26,7 @@
 
 @media only screen and (min-width: 450px) {
   .product-wrapper {
-    width: 100%;
+    width: 50%;
   }
 }
 @media only screen and (max-width: 990px) {
