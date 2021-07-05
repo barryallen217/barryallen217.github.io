@@ -334,5 +334,11 @@
     
     <link href="https://lk.easynetshop.ru/frontend/v5/ens-2ce27914.css" rel="stylesheet">
 
+    <script type="text/javascript">
+      document.addEventListener("EasyNetShopModalOpened", function(event) {
+        if ((ens_jQuery(".easynetshop-modal-addtocart").css('display') != 'none')) { hideEasynetshopModals(); }
+      }, false);
+      </script>
+
   </body>
 </html>
