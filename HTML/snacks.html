@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="stile.css" />
     <link rel="stylesheet" href="media.css" />
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="shortcut icon" type="image/x-icon" href="1.ico" />
     <link rel="stylesheet" href="style-site.css" />
     <link
@@ -66,14 +67,20 @@
 
   </head>
   <body>
+
     <header>
       <a href="index.html" class="logo">Сеньор Помидор</a>
       <nav>
+        <ul class="topmen">
+          <li><a href="cart.html">Корзина</a></li>
+        </ul>
+
         <ul class="topmenu1">
           <li><a href="index.html">Главная</a></li>
 
           <li><a href="about.html">О нас</a></li>
         </ul>
+        
         <ul class="topmenu">
           <li>
             <a href="snacks.html">Закуски</a>
@@ -107,6 +114,7 @@
                   <img class="pic-1" src="snacks/10.jpeg" />
                 </a>
                 <h3 class="title"><a href="snacks_html/hummus.html">Узнать больше</a></h3>
+                <a class="btn-ens-action btn-ens-style" data-rel="2ce27914189903">Купить</a>
               </div>
             </div>
             </div>
@@ -323,7 +331,11 @@
 
    
 
+    <!--Готовый скрипт корзины-->
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-2ce27914.js"></script>
 
+<!--Стили элементов для корзины-->
+<link href="https://lk.easynetshop.ru/frontend/v5/ens-2ce27914.css" rel="stylesheet">
 
   </body>
 </html>

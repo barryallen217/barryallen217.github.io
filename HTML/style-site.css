@@ -79,6 +79,32 @@ nav ul {
   color: #d5b45b;
 }
 
+.topmen:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.topmen > li {
+  width: 25%;
+  float: left;
+  position: absolute; /* Абсолютное позиционирование */
+    top: 10px; /* Положение от нижнего края */
+    right: 15px; /* Положение от правого края */
+    line-height: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+.topmen > li > a {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 217, 0);
+  text-shadow: 1px 1px 2px black, 0 0 10.10px black;
+  padding: 15px 30px;
+}
+.topmen li a:hover {
+  color: #d5b45b;
+}
+
 .submenu-link:after {
   content: "\f107";
   font-family: "FontAwesome";
@@ -102,7 +128,7 @@ nav ul {
   text-align: left;
   padding: 12px 15px;
   font-size: 13px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgb(255, 255, 255, 0.1);
 }
 .submenu li:last-child a {
   border-bottom: none;
