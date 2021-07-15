@@ -27,6 +27,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
     />
+
+
+    <style type="text/css">
+      * {margin: 0; padding: 0;}
+      #wrapper {
+        width: 50%;
+        margin: 10px;
+      }
+      #cart_content {
+        margin-top: 10px;
+        padding: 5px;
+        border: 1px solid #060;
+      }
+      .item_box {
+        border: 1px solid #999;
+        margin-bottom: 10px;
+        padding: 5px;
+      }
+      .shopping_list {
+        width: 100%;
+        margin-top: 10px;
+        border-collapse: collapse;
+      }
+      .shopping_list td,
+      .shopping_list th {
+        padding: 10px;
+        border: 1px solid #AAAAAA;
+      }
+      </style>
+
+
+
+
+
   </head>
   <body>
     <header>
@@ -61,40 +95,52 @@
         <div class="row">
           <div class="block">
             <div class="product-grid">
+              <div class="item_box">
+                <div class="product-content">
+                  <h3 class="title"><a>Наршараб</a></h3>
+                </div>
               <div class="product-image">
                 <a >
                   <img class="pic-1" src="vinegar/nawarab.jpeg" />
                 </a>
+                <h3 class="title"><a href="#">Узнать больше</a></h3>
+                <a class="btn-ens-action btn-ens-style" data-rel="2ce27914263502">В корзину</a>
               </div>
-              <div class="product-content">
-                <h3 class="title"><a >Нашараб</a></h3>
-              </div>
+            </div>
             </div>
           </div>
 
           <div class="block">
             <div class="product-grid">
+              <div class="item_box">
+                <div class="product-content">
+                  <h3 class="title"><a>Вишневый</a></h3>
+                </div>
               <div class="product-image">
-                <a href="#">
+                <a >
                   <img class="pic-1" src="3.jpg" />
                 </a>
+                <h3 class="title"><a href="#">Узнать больше</a></h3>
+                <a class="btn-ens-action btn-ens-style" data-rel="2ce27914263503">В корзину</a>
               </div>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Вишневый</a></h3>
-              </div>
+            </div>
             </div>
           </div>
 
           <div class="block">
             <div class="product-grid">
+              <div class="item_box">
+                <div class="product-content">
+                  <h3 class="title"><a>Яблочный</a></h3>
+                </div>
               <div class="product-image">
-                <a href="#">
+                <a >
                   <img class="pic-1" src="3.jpg" />
                 </a>
+                <h3 class="title"><a href="#">Узнать больше</a></h3>
+                <a class="btn-ens-action btn-ens-style" data-rel="2ce27914263504">В корзину</a>
               </div>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Яблочный</a></h3>
-              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -102,18 +148,22 @@
         <div class="row">
           <div class="block">
             <div class="product-grid">
+              <div class="item_box">
+                <div class="product-content">
+                  <h3 class="title"><a>Мандариновый</a></h3>
+                </div>
               <div class="product-image">
-                <a href="#">
+                <a >
                   <img class="pic-1" src="3.jpg" />
                 </a>
+                <h3 class="title"><a href="#">Узнать больше</a></h3>
+                <a class="btn-ens-action btn-ens-style" data-rel="2ce27914263505	">В корзину</a>
               </div>
-              <div class="product-content">
-                <h3 class="title"><a href="#">Мандариновый</a></h3>
-              </div>
+            </div>
             </div>
           </div>
 
-          <div class="block">
+         <!-- <div class="block">
             <div class="product-grid">
               <div class="product-image">
                 <a href="#">
@@ -140,7 +190,33 @@
               </div>
             </div>
           </div>
+        </div>-->
+        <div class="block">
+          <div class="product-grid">
+            <div class="product-image">
+              <a>
+                <img class="pic-1" src="4.jpeg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#"></a></h3>
+            </div>
+          </div>
         </div>
+
+        <div class="block">
+          <div class="product-grid">
+            <div class="product-image">
+              <a>
+                <img class="pic-1" src="4.jpeg" />
+              </a>
+            </div>
+            <div class="product-content">
+              <h3 class="title"><a href="#"></a></h3>
+            </div>
+          </div>
+        </div>
+      </div>
 
         
 
@@ -167,6 +243,28 @@
           </div>
       </div>
     </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-2ce27914.js"></script>
+    
+    <link href="https://lk.easynetshop.ru/frontend/v5/ens-2ce27914.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    document.addEventListener("EasyNetShopModalOpened", function(event) {
+      if ((ens_jQuery(".easynetshop-modal-addtocart").css('display') != 'none')) { hideEasynetshopModals(); }
+    }, false);
+    </script>
+
+  <style>.powered {display:none}</style>
 
   </body>
 </html>
