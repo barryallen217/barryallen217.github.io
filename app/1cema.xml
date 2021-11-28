@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Финансы" id="3a71b92e-bfd4-4eb6-a827-84e87a6db05b" lastUpdateUUID="720f1a9f-4707-45c9-8152-7833bead78d7" formatVersion="4" defaultLanguage="Language.Русский" version="2.4.12.75">
+<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Финансы" id="3a71b92e-bfd4-4eb6-a827-84e87a6db05b" lastUpdateUUID="92534bab-617c-4e79-bc3e-fd9514dc4089" formatVersion="4" defaultLanguage="Language.Русский" version="2.4.12.75">
 	<synonym>
 		<item xmlns="http://v8.1c.ru/8.1/data/core">
 			<lang>ru</lang>
