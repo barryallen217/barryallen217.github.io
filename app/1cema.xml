@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Финансы" id="3a71b92e-bfd4-4eb6-a827-84e87a6db05b" lastUpdateUUID="7eec9bfa-f02b-4903-83b5-029e0ec9e8a0" formatVersion="4" defaultLanguage="Language.Русский" version="2.4.12.75">
+<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Финансы" id="3a71b92e-bfd4-4eb6-a827-84e87a6db05b" lastUpdateUUID="547908cd-8285-4c3f-92d1-4024a600ef83" formatVersion="4" defaultLanguage="Language.Русский" version="2.4.12.75">
 	<synonym>
 		<item xmlns="http://v8.1c.ru/8.1/data/core">
 			<lang>ru</lang>
@@ -20,23 +20,23 @@
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Contacts</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Calendars</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">PushNotification</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">LocalNotification</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Print</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">InAppPurchases</permission>
@@ -52,7 +52,7 @@
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">BackgroundAudioPlayback</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">FileExchangeWithPersonalComputer</permission>
@@ -88,23 +88,23 @@
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Camera</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">Microphone</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">MusicLibrary</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">PicturesAndVideoLibraries</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">AudioAndVibrationPlayback</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">InstallPackages</permission>
@@ -120,11 +120,11 @@
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">BluetoothPrinters</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredPermission>
 		<permission xmlns="http://v8.1c.ru/8.2/managed-application/core">WiFiPrinters</permission>
-		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">false</use>
+		<use xmlns="http://v8.1c.ru/8.2/managed-application/core">true</use>
 	</requiredPermission>
 	<requiredFunctionality xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xsi:type="app:UsedFunctionality">
 		<app:functionality>
@@ -141,27 +141,27 @@
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>BluetoothPrinters</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>WiFiPrinters</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>Contacts</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>Calendars</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>PushNotifications</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>LocalNotifications</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>InAppPurchases</app:functionality>
@@ -201,27 +201,27 @@
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>Camera</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>Microphone</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>MusicLibrary</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>PictureAndVideoLibraries</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>AudioPlaybackAndVibration</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>BackgroundAudioPlaybackAndVibration</app:functionality>
-			<app:use>false</app:use>
+			<app:use>true</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>InstallPackages</app:functionality>
