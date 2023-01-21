@@ -1,12 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:bsch="http://v8.1c.ru/8.2/data/bsl" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dl="http://v8.1c.ru/8.2/managed-application/dynamic-list" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:mf="http://v8.1c.ru/8.3/mobile-application/form" xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pl="http://v8.1c.ru/8.3/data/planner" xmlns:role="http://v8.1c.ru/8.2/roles" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Финансы" id="3a71b92e-bfd4-4eb6-a827-84e87a6db05b" lastUpdateUUID="79f685fc-9ef0-42e0-bef4-93e747793823" formatVersion="4" defaultLanguage="Language.Русский" version="2.4.12.75">
-	<synonym>
-		<v8:item>
-			<v8:lang>ru</v8:lang>
-			<v8:content>Финансы</v8:content>
-		</v8:item>
-	</synonym>
-	<language name="Русский" id="ba5bc85a-df53-4c3c-9914-08461209a0bb" languageCode="ru">
+<MobileAppInfo xmlns="http://v8.1c.ru/8.3/mobile-application/app" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:bsch="http://v8.1c.ru/8.2/data/bsl" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:chm="http://v8.1c.ru/8.2/data/chart" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:dl="http://v8.1c.ru/8.2/managed-application/dynamic-list" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:mf="http://v8.1c.ru/8.3/mobile-application/form" xmlns:mxl="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pl="http://v8.1c.ru/8.3/data/planner" xmlns:role="http://v8.1c.ru/8.2/roles" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Конфигурация" id="d11f3aee-0c8b-493b-9922-b2c3c0e4f954" lastUpdateUUID="af2655aa-6b0a-401d-8203-38c949d35fee" formatVersion="4" defaultLanguage="Language.Русский">
+	<language name="Русский" id="a589333d-1d10-4948-bd99-98a85ec39adb" languageCode="ru">
 		<synonym>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -31,12 +25,12 @@
 	</requiredPermission>
 	<requiredPermission>
 		<app:permission>PushNotification</app:permission>
-		<app:use>true</app:use>
+		<app:use>false</app:use>
 		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
 		<app:permission>LocalNotification</app:permission>
-		<app:use>true</app:use>
+		<app:use>false</app:use>
 		<app:description/>
 	</requiredPermission>
 	<requiredPermission>
@@ -185,11 +179,11 @@
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>PushNotifications</app:functionality>
-			<app:use>true</app:use>
+			<app:use>false</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>LocalNotifications</app:functionality>
-			<app:use>true</app:use>
+			<app:use>false</app:use>
 		</app:functionality>
 		<app:functionality>
 			<app:functionality>InAppPurchases</app:functionality>
